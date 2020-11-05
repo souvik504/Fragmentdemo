@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#F955D8E4"
+    tools:context=".SouravFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/hg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <TextView
+            android:text="\n
+    Name : Sourav \n
+     Age : 22"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</FrameLayout>
